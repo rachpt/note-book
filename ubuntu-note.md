@@ -440,7 +440,7 @@ sudo apt install unity-tweak-tool
 
 # 使用 ssh
 
-在终端远程连接其他ubuntu系统
+在终端远程连接其他主机
 
 两台设备先安装ssh server和 clicent
 
@@ -459,7 +459,7 @@ sudo /etc/init.d/ssh stop
 sudo /etc/init.d/ssh restart
 ```
 
-client 使用下面的命令连接 sever
+client 使用下面的命令连接 server
 
 ```sh
 ssh 用户名@ip 
